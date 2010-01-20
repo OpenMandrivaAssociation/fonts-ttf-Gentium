@@ -1,7 +1,7 @@
 %define pkgname		Gentium
 %define name		fonts-ttf-%{pkgname}
 %define version		1.02
-%define release		%mkrel 2
+%define release		%mkrel 3
 
 Summary:		Free multilingual Truetype fonts
 Name:			%{name}
@@ -51,14 +51,6 @@ dos2unix README.txt
 
 %clean
 %__rm -rf %{buildroot}
-
-%post
-[ -x %{_bindir}/fc-cache ] && %{_bindir}/fc-cache 
-
-%postun
-if [ "$1" = "0" ]; then
-  [ -x %{_bindir}/fc-cache ] && %{_bindir}/fc-cache 
-fi
 
 %files
 %defattr(-,root,root)
