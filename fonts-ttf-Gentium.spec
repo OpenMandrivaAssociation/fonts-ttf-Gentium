@@ -1,7 +1,7 @@
 %define pkgname		Gentium
 %define name		fonts-ttf-%{pkgname}
 %define version		1.02
-%define release		%mkrel 3
+%define release		%mkrel 4
 
 Summary:		Free multilingual Truetype fonts
 Name:			%{name}
