@@ -13,6 +13,7 @@ Group:			System/Fonts/True type
 Url:			http://scripts.sil.org/%{pkgname}
 BuildRoot:		%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:		noarch
+BuildRequires: fontconfig
 BuildRequires:		freetype-tools, dos2unix
 
 %description
