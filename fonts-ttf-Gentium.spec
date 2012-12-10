@@ -61,3 +61,27 @@ dos2unix README.txt
 %verify(not mtime) %{_datadir}/fonts/TTF/%{pkgname}/fonts.dir
 %{_datadir}/fonts/TTF/%{pkgname}/fonts.scale
 %{_sysconfdir}/X11/fontpath.d/ttf-%{pkgname}:pri=50
+
+
+%changelog
+* Tue May 17 2011 Funda Wang <fwang@mandriva.org> 1.02-5mdv2011.0
++ Revision: 675547
+- br fontconfig for fc-query used in new rpm-setup-build
+
+* Sun Dec 05 2010 Oden Eriksson <oeriksson@mandriva.com> 1.02-4mdv2011.0
++ Revision: 610729
+- rebuild
+
+* Wed Jan 20 2010 Paulo Ricardo Zanoni <pzanoni@mandriva.com> 1.02-3mdv2010.1
++ Revision: 494141
+- fc-cache is now called by an rpm filetrigger
+
+* Fri Sep 11 2009 Thierry Vignaud <tv@mandriva.org> 1.02-2mdv2010.0
++ Revision: 437571
+- rebuild
+
+* Tue Nov 11 2008 Lev Givon <lev@mandriva.org> 1.02-1mdv2009.1
++ Revision: 302290
+- import fonts-ttf-Gentium
+
+
