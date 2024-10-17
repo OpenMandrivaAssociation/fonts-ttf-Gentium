@@ -10,7 +10,7 @@ Release:		%{release}
 Source0:		%{pkgname}_102_W.zip
 License:		OFL
 Group:			System/Fonts/True type
-Url:			http://scripts.sil.org/%{pkgname}
+Url:			https://scripts.sil.org/%{pkgname}
 BuildRoot:		%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:		noarch
 BuildRequires: fontconfig
